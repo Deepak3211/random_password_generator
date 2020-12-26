@@ -21,8 +21,8 @@ clipBoard.addEventListener('click',
 function randomPwd(e) {
 e.preventDefault();
 result.innerText =
-Math.random().toString(36).slice(2) +
-Math.random().toString(36).toUpperCase().slice(2) + symbols[Math.floor(symbols.length *Math.random())]
+Math.random().toString(36).slice(2)+ symbols[Math.floor(symbols.length *Math.random())] +
+Math.random().toString(36).toUpperCase().slice(2) 
 }
 // console.log(result);
 
